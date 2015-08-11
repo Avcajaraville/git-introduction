@@ -19,3 +19,7 @@ git revert -m 1 commit_hash:
 ### Suggested alias for .bash_profile
 
 alias git_graph='git log --graph --decorate --pretty=oneline --abbrev-commit'
+
+### Diff by highlighting inline word changes instead of whole lines
+
+git diff file_name --word-diff
