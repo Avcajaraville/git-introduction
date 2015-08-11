@@ -6,7 +6,11 @@ git reset HEAD --hard or alternatively, use commit hash instead
 
 ### Force your local repo. to be exactly the same as a remote one
 
-git reset --hard origin/master 
+git reset --hard origin/master
+
+### Reverting a file to the state that had on the last commit
+
+git checout file_name
 
 ### Rebasing keeping no fast forward
 
