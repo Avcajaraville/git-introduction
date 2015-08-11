@@ -12,6 +12,8 @@ Lets see what happen if you just pull.
 5. Now go back to your test branch, pull and do some other changes, then commit them.
 6. Now, back to develop. Merge that branch and do git_graph. Thats pretty disgusting, uh ?
 
+(\*) What happens here is that git pull is an alias for git fetch followed by a git merge (fast-forward)
+
 ## The solution:
 
 Use git rebase on your feature branch to have all new changes.
