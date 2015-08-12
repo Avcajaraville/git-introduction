@@ -18,4 +18,5 @@ You want to rewrite an arbitrary commit message or add more files to it
 
 ## The solution:
 
-Use git rebase -i (interactive mode). Select the commit BEFORE the point you want to rewrite. If you need to add more commits, you can git commit --amend (and also use the classic rebase options: squash, etc)
+Use git rebase -i (interactive mode). Select the commit BEFORE the point you want to rewrite. 
+If you need to add more files, you can git add them and then git commit --amend (and also use the classic rebase options: squash, etc).
